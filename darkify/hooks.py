@@ -3,11 +3,14 @@ from . import __version__ as app_version
 app_name = "darkify"
 app_title = "Darkify"
 app_publisher = "Hussain Nagaria"
-app_description = "Switches to dark theme. Stupid."
+app_description = "Switches to dark theme for all users on every login. Stupid."
 app_icon = "octicon octicon-file-directory"
 app_color = "red"
 app_email = "hussain@frappe.cloud"
 app_license = "MIT"
+
+
+on_login = "darkify.session_hooks.make_it_dark"
 
 # Includes in <head>
 # ------------------
