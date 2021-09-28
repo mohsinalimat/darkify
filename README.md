@@ -4,4 +4,4 @@ Switches to dark theme. Stupid.
 
 #### License
 
-MIT
+Do whatever you want.
